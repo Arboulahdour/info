@@ -401,10 +401,6 @@
             body {
                 font-size: 16px;
             }
-		
-	    nav {
-                position: absolute;
-        }
 
             nav ul {
                 margin-right: 0px;
@@ -504,6 +500,10 @@
 
             body {
                 font-size: 16px;
+            }
+
+            nav {
+                position: absolute;
             }
 
             nav ul {
