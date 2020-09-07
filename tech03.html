@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>L'automatisation des réseaux</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="Content-Language" content="fr"/>
+        <meta name="author" content="Abderrahmane Boulahdour"/>
+        <meta name="KeyWords" content=""/>
+        <meta name="Description" content=""/>
+        <script src="kit.fontawesome.com_a076d05399.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+                           integrity="sha384-fnm0CqbTlWIlj8LyTjmOUStjsXC4pOpQbqvyi7RrbN7udi9RwhKkMHppvLbHG9Sr">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?familly=Candal|Lora">                    
+		<link rel="stylesheet" type="text/css" href="article01.css">
+    </head>
+    <body>
+        <header id="head">
+            <nav> 
+            <div class="logo">ArBoulahdour</div>
+            <label for="btn" class="icon">
+                <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul>
+                <li><a href="index.html" class="active">Acceuil</a></li>
+                <li>
+                    <label for="btn-1" class="show">Articles +</label>
+                    <a href="articles.html">Articles</a>
+                    <input type="checkbox" id="btn-1">
+                    <ul>
+                        <li id="l1"><a href="article01.html">Comment marche l'internet?</a></li>
+                        <li id="l1"><a href="article02.html">Les généralités sur les réseaux informatiques</a></li>
+                        <li id="l1"><a href="#">C'est quoi le role d'un FAI?</a></li>
+                        <li id="l1"><a href="article04.html">L'évolution apporté aux réseaux</a></li>
+			<li id="l1"><a href="article05.html">Les centres de données</a></li>
+			<li id="l1"><a href="article06.html">Les services du Cloud</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-2" class="show">Tutoriels +</label>
+                    <a href="#">Tutoriels</a>
+                    <input type="checkbox" id="btn-2">
+                    <ul>
+                        <li><a href="#">L'automatisation avec Python</a></li>
+                        <li><a href="#">L'installation et la configuration du Ansible</a></li>
+                        <li><a href="#">La gestion des systemes informatiques avec Ansible</a></li>
+                        <li><a href="#">La gestion des équipements réseaux avec Ansible</a></li>
+                        <li>
+                            <label for="btn-3" class="show">Plus +</label>
+                            <a href="#">Plus
+                                <span class="fa fa-plus"></span>
+                            </a>
+                            <input type="checkbox" id="btn-3">
+                            <ul>
+                                <li><a href="#">Installation du docker sur ubuntu</a></li>
+                                <li><a href="#">La manipulation des conteneurs avec docker</a></li>
+                                <li><a href="#">la creation du reseau overlay avec docker swarm</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-4" class="show">Technologies +</label>
+                    <a href="technologies.html">Technologies</a>
+                    <input type="checkbox" id="btn-4">
+                    <ul>
+                        <li id="l1"><a href="tech01.html">La virtualisation des serveurs</a></li>
+            <li id="l1"><a href="tech02.html">La virtualisation des réseaux</a></li>
+                        <li id="l1"><a href="tech03.html">L'automatisation du réseau?</a></li>
+                        <li id="l1"><a href="tech04.html">Le principe de SDN</a></li>
+                        <li id="l1"><a href="tech05.html">Le principe de NFV</a></li>
+                        <li id="l1"><a href="tech06.html">Le principe de DevOps </a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Langues</a>
+                    <!--<ul>
+                        <li><a href="#">Francais</a></li>
+                        <li><a href="#">Anglais</a></li>
+                    </ul>-->
+                </li>
+            </ul>
+        </nav>
+        </header>
+
+
+<div class="row">
+  <div class="main">
+    <h2 class="page-title-4">L'automatisation des réseaux</h2>
+    <div class="ref">Publié le 08/02/2020 par Abderrahmane Boulahdour
+                <a href="https://www.instagram.com/ar.boulahdour/?hl=en" target="_blank"><i class="fab fa-instagram fa-1x" style="margin-right: 10px;"></i></a>
+                <a href="https://twitter.com/ABoulahdour" target="_blank"><i class="fab fa-twitter fa-1x" style="margin-right: 10px;"></i></a>
+                <a href="https://web.facebook.com/billie.abdou.35/" target="_blank"><i class="fab fa-facebook fa-1x" style="margin-right: 10px;"></i></a>
+                <a href="https://www.linkedin.com/in/abderrahmane-boulahdour-462165169" target="_blank"><i class="fab fa-linkedin fa-1x" style="margin-right: 10px;"></i></a>
+    </div>
+    <div class="img_int" style="height:400px;">
+        <img src="auto.jpg"/>
+    </div>
+    <div class="content-text">L'automatisation du réseau est le processus d'automatisation de la configuration, de la gestion, des tests, du déploiement et de l'exploitation des périphériques physiques et virtuels au sein d'un réseau. Avec les tâches et fonctions réseau quotidiennes automatisées et les processus répétitifs contrôlés et gérés automatiquement, la disponibilité des services réseau s'améliore. 
+    <br/><br>
+    Tout type de réseau peut intégrer l'automatisation. Les solutions matérielles et logicielles permettent aux centres de données, aux fournisseurs de services et aux entreprises de mettre en œuvre l'automatisation du réseau pour améliorer l'efficacité, réduire les erreurs humaines et réduire les dépenses d'exploitation.
+    <br/><br>
+    <div class="sous-titre">Les outils de l'automatisation </div>Pour appliquer l’automatisation au réseau, plusieurs outils rentrent en jeux pour accomplir cette tâche, parmi ces outils on a :
+    <br>
+    <ol class="list">
+        <li><span>• Ansible, Puppet, Chef et Saltstack</span></li>
+        <li><span>• Python avec ces librairies « Netmiko, Paramiko et Napalm »</span></li> 
+        <li><span>• Git/Github/Gitlab</span></li>
+        <li><span>• NETCONF, REST API</span></li>
+    </ol>
+    <br/>
+    <div class="sous-titre">Avantages de l'automatisation </div>Avec l’automatisation du réseau en bénéficie de :
+    <br>
+    <br>
+    <ol class="list">
+        <li><b><i><span style="color: rgb(0,24,66);">• Coûts réduits :</span></i></b>l'automatisation réduisant la complexité de votre infrastructure underlay, il faut considérablement moins d'heures-personnes pour configurer, provisionner et gérer les services et le réseau. En simplifiant les opérations, en consolidant les services réseau, en réduisant l'espace et en désactivant les appareils sous-utilisés, donc moins de personnel pour dépanner et réparer, et réaliser des économies d'énergie.</li>
+        <br/> 
+        <li><b><i><span style="color: rgb(0,24,66);">• Améliorez la continuité des activités :</span></i></b> en supprimant les risques d'erreurs humaines, les entreprises peuvent offrir et fournir un niveau de services plus élevé avec plus de cohérence entre les succursales et les zones géographiques.</li>
+        <br>
+        <li><b><i><span style="color: rgb(0,24,66);">• Meilleure compréhension et contrôle du réseau :</span></i></b> l'automatisation contribue à rendre les opérations informatiques plus réactives au changement grâce à l'analyse. On gagne plus de visibilité sur le réseau et comprenez précisément ce qui se passe dans le réseau avec la capacité de contrôler et d'adapter au besoin.</li>
+        <br>
+        <li><b><i><span style="color: rgb(0,24,66);">• Améliorez la continuité des activités :</span></i></b> l'automatisation permet aux entreprises de développer des modèles opérationnels qui améliorent les délais de commercialisation. Cela permit à ajouter de nouveaux services, tester de nouvelles applications et résoudre des problèmes. Le temps nécessaire pour réaliser les améliorations est réduit, ce qui accroît la compétitivité et l'élasticité et, en fin de compte, augmente les bénéfices dans les résultats de l'entreprise.</li>
+    </ol>
+
+    <br/>
+    <div class="sous-titre">Infrastructure en tant que code « IaC »</div>
+    Infrastructure en tant que code « ou Infrastructure as Code (IaC) » est une approche de gestion des infrastructures de serveur, de stockage et de mise en réseau du centre de données. L'IaC vise à simplifier considérablement la configuration et la gestion à grande échelle. Avec la gestion traditionnelle de l'infrastructure du centre de données, chaque changement de configuration nécessite une action manuelle de la part des opérateurs et des administrateurs système. Avec IaC, les informations de configuration de l'infrastructure sont hébergées dans des fichiers normalisés, qui peuvent être lus par un logiciel qui maintient l'état de l'infrastructure. L'IaC peut améliorer la productivité et la fiabilité car il élimine les étapes de configuration manuelle.
+    <div class="img_int-3" style="height:150px;">
+        <img src="image28.jpg"/>
+    </div>
+    <div style="text-align: center; font-style: italic; color: rgb(0,24,66);">Le flux de travail du l’IaC</div>
+    <br>
+    Les bénéfices de l’infrastructure en tant que code sont :
+    <br>
+    <br>
+    <ol class="list">
+        <li><b><i><span style="color: rgb(0,24,66);">• Amélioration de la productivité :</span></i></b> Les administrateurs et les opérateurs ne doivent plus effectuer d'étapes de configuration manuelles pour les modifications de l'infrastructure du centre de données.</li>
+        <br>
+        <li><b><i><span style="color: rgb(0,24,66);">• Fiabilité améliorée :</span></i></b> La configuration de l'infrastructure est contenue dans des fichiers électroniques et le logiciel est responsable du lancement des changements d'infrastructure, il y a donc moins de risque d'erreur humaine.</li>
+    </ol>
+    <br>
+    <div class="sous-titre">L’automatisation du réseau et l’IaC</div>
+    L’automatisation et l’infrastructure en tant que Code sont deux termes étroitement liés, mais signifient des choses très différentes. L'infrastructure en tant que code vise à maintenir la configuration ou l'état de l'infrastructure du centre de données d'une manière connue. L'automatisation traite davantage du processus de transfert automatique de cet état dans l'infrastructure et de sa maintenance.
+    <br>
+    <div>
+        <a class="back" href='tech02.html'><i class="fa fa-chevron-left fa-1x" style="margin-right: 10px;"></i>Précédent</a>
+    </div>
+    <div>
+        <a class="next" href='tech04.html'>Suivant<span style="margin-right: 10px;"></span><i class="fa fa-chevron-right fa-1x" style="margin-right: 10px;"></i></a>
+    </div>
+    <br><br>
+    <div style="border-top: 1px solid rgb(29,50,101); margin-right: 17px; margin-top: 80px;"></div>
+    <div class="arts-list">
+        <br><br>
+        <div>Technologies similaires : </div>
+        <a href="tech01.html">La virtualisation des serveurs</a>
+        <br>
+        <a href="tech02.html">La virtualisation des reseaux</a>
+        <br>
+        <a href="tech04.html">Le principe de SDN</a>
+        <br>
+        <a href="tech05.html">Le principe de NFV</a>
+        <br>
+        <a href="tech06.html">Le principe de DevOps</a>
+    </div>
+    </div>
+
+        <div class="espace-4"> </div>
+  </div>
+
+<div class="side">
+
+        <h2 class="side-title">D'autres articles...</h3>
+            <br>
+
+        <div class="card">
+                <div class="img">
+                    <img src="internet.jpg">
+                </div>
+                <div class="top-text">
+                    <div class="name">Comment fonctionne l'internet?</div>
+                    <p>08/02/2020</p>
+                </div>
+                <div class="bottom-text">
+                    <div class="text">
+                        Internet est un nouvel outil d’information et de communication en pleine évolution offrant des perspectives de croissance exceptionnelles. Internet est entraîne de modifier nos habitudes et de transformer complètement notre mode de vie. C’est devenu un formidable moyen de communiquer, de travailler, de rencontrer, d’échanger, de partager, d’apprendre et même de commercer.</div>
+                    <div class="btn">
+                        <a href="article01.html">Lire plus</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="net.jpg">
+                </div>
+                <div class="top-text">
+                    <div class="name">Les réseaux informatiques</div>
+                    <p>16/02/2020</p>
+                </div>
+                <div class="bottom-text">
+                    <div class="text">
+                        Un réseau informatique est un ensemble d'équipements reliés entre eux pour échanger et partager des informations.  ils sont classés selon deux catégories: Interanet et Extranet, en fonction de leur degré d’ouverture d’accès. La communication entre les équipements d’un réseau informatique faite par l’intermédiaire d’un langage informatique qui définit des regles, plus couramment appelé protocole.</div>
+                    <div class="btn">
+                        <a href="article02.html">Lire plus</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="isp.png">
+                </div>
+                <div class="top-text">
+                    <div class="name">Le rôle d'un FAI</div>
+                    <p>18/02/2020</p>
+                </div>
+                <div class="bottom-text">
+                    <div class="text">Un fournisseur d'Accés Internet (FAI) est une organisation qui fournit des services pour l' accès a l'internet aux individus et aux compagnies. Les FAI proposent à leurs clients la navigation sur internet mais aussi des services comme la gestion des adresses de courrier électronique, l'hébergement de sites, la diffusion audio/vidéo (streaming), le stockage et les liaisons sécurisées. </div>
+                    <div class="btn">
+                        <a href="#">Lire plus</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="more-btn">
+                <a href="articles.html">Voir plus +</a>
+            </div>
+
+            <h2 class="side-title-2">Dernières technologies...</h3>
+                <br>
+
+        <div class="card">
+                <div class="img">
+                    <img src="virt.jpg">
+                </div>
+                <div class="top-text">
+                    <div class="name">La virtualisation des serveurs</div>
+                    <p>20/03/2020</p>
+                </div>
+                <div class="bottom-text">
+                    <div class="text">La virtualisation des serveurs consiste à séparer le système d’exploitation de matériel et de faire fonctionner un ou plusieurs systèmes d’exploitation sur un ou plusieurs ordinateurs à l’aide d’un hyperviseur. Ce dernier est un logiciel, un frimware ou un équipement matériel qui ajoute une couche d’abstraction au-dessus de la couche physique pour faire marcher d'autres systèmes d’exploitations.</div>
+                    <div class="btn">
+                        <a href="tech01.html">Lire plus</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="netvir.jpg">
+                </div>
+                <div class="top-text">
+                    <div class="name">La virtualisation des réseaux</div>
+                    <p>22/03/2020</p>
+                </div>
+                <div class="bottom-text">
+                    <div class="text">La virtualisation du réseau consiste à combiner des ressources réseau matérielles et logicielles dans une seule unité administrative. L'objectif de la virtualisation du réseau est de fournir aux systèmes et utilisateurs un partage efficace, contrôlé et sécurisé des ressources réseau. Parmi ces ressources les commutations, le routage, le filtrage et aussi l’équilibrage de charge. </div>
+                    <div class="btn">
+                        <a href="tech02.html">Lire plus</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="sdn.jpeg">
+                </div>
+                <div class="top-text">
+                    <div class="name">Le principe de SDN</div>
+                    <p>03/04/2020</p>
+                </div>
+                <div class="bottom-text">
+                    <div class="text">Le Software Defined Networking « ou SDN » est une approche du réseau défini par l’ONF « Open Networking Fundation » dans laquelle le contrôle est séparé du matériel et transféré vers une application logicielle appelé contrôleur. Il isole l’infrastructure underlay du réseau afin de pouvoir la traiter comme une entité logique ou virtuelle. L’objectif du SDN est d’abaisser les coûts.</div>
+                    <div class="btn">
+                        <a href="tech04.html">Lire plus</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="more-btn">
+                <a href="technologies.html">Voir plus +</a>
+            </div>
+
+            
+
+
+        <div class="espace-3"> </div>
+
+
+  </div>
+
+</div>
+
+
+        <div id="footer">
+            <form name='Forme' class="mm" method='GET' action='' onsubmit='sendInfo();'>
+                <div id="contact">
+                    <div style="text-align:center; font-size:26px; font-family:calibri;">Nous contacter</div>
+                    <br/>
+                    <label for="email" class="form">Email </label><br/>
+                    <input type="text" style="text-indent:8px;" id="email" name="email" placeholder='Email...' required='required' class="form1"/>
+                    <br/>
+                    <label for='com' class="form">Message </label><br/>
+                    <textarea name="commentaires" style="text-indent:8px;" id='com' placeholder='Votre message...' class="form2"> </textarea>
+                    <br/>
+                    <input type="submit" value="ENVOYER" id="Forme1" class="send"/>
+                </div>
+            </form>
+            <div id="location">
+                <div style="text-align:center; font-size:26px; font-family:calibri;">Nous trouver</div><br/><br/><br/>
+                <div><i class="fas fa-map-marker-alt fa-1x" style="margin-right: 10px;"></i> 06 lot Settoul Mekki, GC 16048 Alger, Algerie</div><br/>
+                <div><i class="fas fa-phone-alt fa-1x" style="margin-right: 10px;"></i> +213 796 046 665 </div><br/>
+                <div><i class="fas fa-envelope fa-1x" style="margin-right: 10px;"></i> <a href="" style="text-decoration:none; color:white;">ar.boulahdour@outlook.com</a></div><br/>                
+            </div>
+            <div id="about">
+                <div style="text-align:center; font-size:26px; font-family:calibri; margin-left: -30px;">Suivez-nous</div><br/><br>
+                <div style="height: 7px;"></div>
+                <a href="https://www.linkedin.com/in/abderrahmane-boulahdour-462165169" target="_blank"><i class="fab fa-linkedin fa-3x" style="margin-right: 40px;"></i></a>
+                <a href="https://web.facebook.com/billie.abdou.35/" target="_blank"><i class="fab fa-facebook fa-3x" style="margin-right: 40px;"></i></a><br><br><br>
+                <a href="https://twitter.com/ABoulahdour" target="_blank"><i class="fab fa-twitter fa-3x" style="margin-right: 40px;"></i></a>
+                <a href="https://www.instagram.com/ar.boulahdour/?hl=en" target="_blank"><i class="fab fa-instagram fa-3x" style="margin-right: 40px;"></i></a>                
+            </div>
+        </div>
+        
+        <div id="footer_end">
+                <br/>
+                <div style="color:white; font-family:calibri; font-size:16px; text-indent: 8px;">Copyright © 2020 ArBoulahdour. Tous droits réservés. Mentions légales</div> 
+        </div>
+
+    </body>
+</html>
